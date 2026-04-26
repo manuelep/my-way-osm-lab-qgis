@@ -1,6 +1,6 @@
 ## Licence note
 
-This project is a derivative work based on the original [*champs-libres-qgis-osm-style* by Champs-Libres](https://gitlab.com/champs-libres/public/champs-libres-qgis-osm-style).
+This project is a derivative work based on the original [champs-libres-qgis-osm-style by Champs-Libres](https://gitlab.com/champs-libres/public/champs-libres-qgis-osm-style).
 
 The original project is licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0), and this repository follows the same license.
 
