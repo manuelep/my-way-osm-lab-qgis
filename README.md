@@ -7,11 +7,14 @@ This repository uses a `Makefile` to simplify the management of the Docker envir
 * Docker and Docker Compose installed.
 * A `.env` file (you can use `default.env` as a template) to define environment variables, such as `HTTP_PORT`.
 
-### Important: Data Sources (Raster and Vector)
+### Data Requirements: Raster & Vector Sources
 
-For storage and licensing reasons, **this repository does not include large data files** required for full rendering, such as raw raster sources, heavy GeoPackages, or vector databases.
+For storage and licensing reasons, **this repository does not include large datasets** (such as raw raster files, heavy GeoPackages, or vector databases). To use this project, you must manually source these files and place them in the following directories:
 
-Users must independently obtain these files through external channels (e.g., Regional Geoportals, Geofabrik OSM extracts, etc.) and place them in the appropriate directories as expected by the project configuration.
+- `map-style/shp/`: Place all vector data (Shapefiles, GeoPackages, etc.) here.
+- `map-style/raster/`: Place all raster sources (TIFFs, ECWs, etc.) here.
+
+You can obtain these data files through external providers such as Geofabrik (for OSM extracts), regional geoportals, or other official cartographic services.
 
 ### Main Commands
 
