@@ -1,0 +1,15 @@
+champs-libres-qgis-osm-style.qgs~
+champs-libres-qgis-osm-style_attachments.zip
+
+.DS_Store
+.vscode
+*.out
+
+.env
+
+*.qgs~
+*_attachments.zip
+
+mapproxy/cache_data
+
+map-style/shp

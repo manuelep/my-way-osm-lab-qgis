@@ -1,0 +1,60 @@
+services:
+  demo:
+  wmts:
+    srs: ['EPSG:3857', 'EPSG:25833', 'EPSG:4326']
+    image_formats: ['image/png; mode=8bit', 'image/png', 'image/jpeg']
+  wms:
+    srs: ['EPSG:3857', 'EPSG:25833', 'EPSG:4326']
+    image_formats: ['image/png; mode=8bit', 'image/png', 'image/jpeg']
+
+layers:
+  - name: osm4sking
+    title: OSM4Skiing - Piste Sci
+    sources: [osm4sking_cache]
+    max_output_pixels: 2560
+    max_tile_size: 1024
+
+caches:
+  osm4sking_cache:
+    grids: [webmercator]
+    sources: [qgis_wms]
+    meta_size: [4, 4]
+    cache_level_type: 'tms'
+    meta_buffer: 10
+    minimize_meta_requests: true
+    extent: [732790.4930897467, 5429496.570706574, 1341310.9197858027, 5889762.9946888555]
+
+sources:
+  qgis_wms:
+    type: wms
+    req:
+      url: http://map/ogc/
+      layers: gis_osm_landuse_a_free_1,gis_osm_adminareas_a_free,gis_osm_adminareas_a_free copia,planet_pistesosmium__multipolygons,gis_osm_places_free_1,gis_osm_pois_free_1,gis_osm_transport_free_1,gis_osm_transport_a_free_1,gis_osm_buildings_a_free_1,gis_osm_protected_areas_a_free,gis_osm_water_a_free_1
+      transparent: true
+    supported_srs: ['EPSG:25833', 'EPSG:3857', 'EPSG:4326']
+
+grids:
+  webmercator:
+    base: GLOBAL_WEBMERCATOR
+
+coverages:
+  osm4sking_extent:
+    bbox: [732790.4930897467, 5429496.570706574, 1341310.9197858027, 5889762.9946888555]
+    srs: 'EPSG:3857'
+
+seeds:
+  osm4sking_seed:
+    caches: [osm4sking_cache]
+    grids: [webmercator]
+    levels: [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]
+    coverages: [osm4sking_extent]
+    request_format: image/png
+
+globals:
+  cache:
+    base_dir: './cache_data'
+    lock_dir: './cache_data/tile_locks'
+  http:
+    ssl_verify: off
+  image:
+    resampling_method: bilinear

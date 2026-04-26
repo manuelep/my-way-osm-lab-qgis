@@ -1,0 +1,65 @@
+# db:
+#   image: kartoza/postgis:9.6-2.4
+#   #volumes:
+#     #- ./pg/postgres_data:/var/lib/postgresql
+#   environment:
+#     - USERNAME=docker
+#     - PASS=docker
+
+services:
+  map:
+    #build : 3,0
+    image: qgis/qgis-server:ltr-trixie
+    hostname: map
+    environment:
+      # set to '' if you plan on hosting 
+      # multiple projects on this server an
+      # then add map=<path to project> to your GET
+      # requests
+      - QGIS_PROJECT_FILE=/workspace/osm4sking.qgs
+      # 0 = highest level, shows all messages
+      # 5 = very quiet
+      - QGIS_SERVER_LOG_LEVEL=1
+      - QGIS_SERVER_MAX_THREADS=4
+      - QGIS_SERVER_PARALLEL_RENDERING=true
+      - QT_QPA_PLATFORM=offscreen
+    volumes:
+      - ./projects:/projects:ro
+      - ./map-style:/workspace:ro
+    ports:
+      - "8081:80"
+    networks:
+        - ownosm
+    restart: unless-stopped
+
+  nginx:
+    image: nginx:stable
+    hostname: nginx
+    volumes:
+      - ./nginx-conf:/etc/nginx/conf.d
+    ports:
+      - "0.0.0.0:8080:80"
+    networks:
+        - ownosm
+    depends_on: [map]
+    restart: unless-stopped
+
+  mapproxy:
+    image: kartoza/mapproxy:stable
+    hostname: mapproxy
+    environment:
+      - MAPPROXY_WORKERS=8
+      - MAPPROXY_CHEAPER=4
+      - MAPPROXY_TIMEOUT=300
+    volumes:
+      - ./mapproxy:/mapproxy
+    ports:
+      - "8082:8080"
+    networks:
+      - ownosm
+    depends_on: [map]
+    restart: unless-stopped
+
+networks:
+  ownosm:
+
