@@ -1,3 +1,54 @@
+## Usage Guide
+
+This repository uses a `Makefile` to simplify the management of the Docker environment and the generation of map tile caches.
+
+### Prerequisites
+
+* Docker and Docker Compose installed.
+* A `.env` file (you can use `default.env` as a template) to define environment variables, such as `HTTP_PORT`.
+
+### Important: Data Sources (Raster and Vector)
+
+For storage and licensing reasons, **this repository does not include large data files** required for full rendering, such as raw raster sources, heavy GeoPackages, or vector databases.
+
+Users must independently obtain these files through external channels (e.g., Regional Geoportals, Geofabrik OSM extracts, etc.) and place them in the appropriate directories as expected by the project configuration.
+
+### Main Commands
+
+Run the following commands from the root directory of the repository:
+
+- **Start the environment:**
+  ```bash
+  make start
+  ```
+  Starts the services in the background via Docker Compose and simultaneously launches a Python HTTP server to serve files in the examples folder. It will also tail the container logs.
+
+- **Stop the environment:**
+  ```bash
+  make stop
+  ```
+  Shuts down all active services and containers.
+
+- **Generate Map Cache (Seeding):**
+  ```bash
+  make cache-map
+  ```
+  Triggers the MapProxy seeding process inside the container based on mapproxy.yaml and seed.yaml configurations to pre-generate tiles.
+
+- **Reset Cache:**
+  ```bash
+  make reset-cache
+  ```
+  Physically removes the local cache directory (mapproxy/cache_data). Use this if you need to force a full re-generation of the map tiles.
+
+---
+
+### Key points included:
+* **External Data Requirement:** Explicitly mentions that raster and vector sources must be sourced elsewhere.
+* **Makefile Targets:** Covers `start`, `stop`, `cache-map`, and `reset-cache` based on the logic found in your file.
+* **Automation:** Explains that `make start` handles both the Docker infrastructure and the local Python web server for examples.
+
+
 ## Licence note
 
 This project is a derivative work based on the original [*champs-libres-qgis-osm-style* by Champs-Libres](https://gitlab.com/champs-libres/public/champs-libres-qgis-osm-style).
