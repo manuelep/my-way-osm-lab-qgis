@@ -29,7 +29,7 @@ sources:
     type: wms
     req:
       url: http://map/ogc/
-      layers: gis_osm_landuse_a_free_1,gis_osm_adminareas_a_free,gis_osm_adminareas_a_free copia,planet_pistesosmium__multipolygons,gis_osm_places_free_1,gis_osm_pois_free_1,gis_osm_transport_free_1,gis_osm_transport_a_free_1,gis_osm_buildings_a_free_1,gis_osm_protected_areas_a_free,gis_osm_water_a_free_1
+      layers: area_nord_ovest,area_nord_est,gis_osm_landuse_a_free_1_no,gis_osm_landuse_a_free_ne,gis_osm_waterways_free_1_no,gis_osm_waterways_free_ne,gis_osm_water_a_free_1_no,gis_osm_water_a_free_ne,gis_osm_natural_free_1_no,gis_osm_natural_free_ne,gis_osm_protected_areas_a_free_no,gis_osm_protected_areas_a_free_ne,gis_osm_railways_free_1,gis_osm_railways_free,gis_osm_roads_free_1_no,gis_osm_roads_free_ne,gis_osm_buildings_a_free_1_no,gis_osm_buildings_a_free,gis_osm_transport_a_free_1_no,gis_osm_transport_a_free_ne,gis_osm_transport_free_1_no,gis_osm_transport_free_ne,gis_osm_pois_free_1_no,gis_osm_pois_free_ne,gis_osm_places_free_1_no,gis_osm_places_free_ne,area_interesse,planet_pistes-osmium_no-ne — planet_pistesosmium__multipolygons,hill_shade_nord,planet_pistes-osmium_no-ne — planet_pistesosmium__lines
       transparent: true
     supported_srs: ['EPSG:25833', 'EPSG:3857', 'EPSG:4326']
 
@@ -46,7 +46,7 @@ seeds:
   osm4sking_seed:
     caches: [osm4sking_cache]
     grids: [webmercator]
-    levels: [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]
+    levels: [13, 14, 15, 16, 17, 18]
     coverages: [osm4sking_extent]
     request_format: image/png
 

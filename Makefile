@@ -6,8 +6,11 @@ export
 
 start:
 	@docker compose up -d
-	@nohup python -m http.server $HTTP_PORT examples &
 	@docker compose logs -f 
+
+example-map:
+	@cd examples && nohup python -m http.server ${HTTP_PORT}
+
 
 cache-map:
 	@docker compose exec mapproxy mapproxy-seed -f /mapproxy/mapproxy.yaml -s /mapproxy/seed.yaml --concurrency=4
