@@ -2,7 +2,7 @@ seeds:
   osm4sking_seed:
     caches: [osm4sking_cache]
     grids: [webmercator]
-    levels: [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]
+    levels: [13, 14, 15, 16, 17, 18]
     coverages: [osm4sking_extent]
     request_format: image/png
 

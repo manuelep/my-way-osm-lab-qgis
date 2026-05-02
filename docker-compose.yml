@@ -20,7 +20,7 @@ services:
       # 0 = highest level, shows all messages
       # 5 = very quiet
       - QGIS_SERVER_LOG_LEVEL=1
-      - QGIS_SERVER_MAX_THREADS=4
+      - QGIS_SERVER_MAX_THREADS=6
       - QGIS_SERVER_PARALLEL_RENDERING=true
       - QT_QPA_PLATFORM=offscreen
     volumes:
@@ -48,7 +48,7 @@ services:
     image: kartoza/mapproxy:stable
     hostname: mapproxy
     environment:
-      - MAPPROXY_WORKERS=8
+      - MAPPROXY_WORKERS=12
       - MAPPROXY_CHEAPER=4
       - MAPPROXY_TIMEOUT=300
     volumes:
