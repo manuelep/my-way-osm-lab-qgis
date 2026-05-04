@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis saveUser="manuele" saveDateTime="2026-05-01T22:29:17" saveUserFull="Manuele Pesenti" projectname="" version="3.40.5-Bratislava">
+<qgis saveUser="manuele" saveDateTime="2026-05-02T21:26:00" saveUserFull="Manuele Pesenti" projectname="" version="3.40.5-Bratislava">
   <homePath path=""/>
   <title></title>
   <transaction mode="Disabled"/>
@@ -705,10 +705,10 @@
   <mapcanvas annotationsVisible="1" name="theMapCanvas">
     <units>meters</units>
     <extent>
-      <xmin>270793.2787662313785404</xmin>
-      <ymin>4945491.93364369310438633</ymin>
-      <xmax>406710.02758725569583476</xmax>
-      <ymax>5033687.03147384151816368</ymax>
+      <xmin>294768.15949228405952454</xmin>
+      <ymin>4837513.8632708415389061</ymin>
+      <xmax>908544.32577418955042958</xmax>
+      <ymax>5233146.28810387663543224</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -1075,6 +1075,18 @@
   </main-annotation-layer>
   <projectlayers>
     <maplayer simplifyAlgorithm="0" refreshOnNotifyMessage="" symbologyReferenceScale="-1" readOnly="0" labelsEnabled="0" maxScale="0" hasScaleBasedVisibilityFlag="0" autoRefreshMode="Disabled" type="vector" simplifyDrawingTol="1" simplifyDrawingHints="1" styleCategories="AllStyleCategories" refreshOnNotifyEnabled="0" wkbType="MultiPolygon" geometry="Polygon" simplifyLocal="1" autoRefreshTime="0" simplifyMaxScale="1" minScale="100000000" legendPlaceholderImage="">
+      <extent>
+        <xmin>6.6272649765014604</xmin>
+        <ymin>43.73080444335940342</ymin>
+        <xmax>13.91865539550780007</xmax>
+        <ymax>47.09215545654299717</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>6.6272649765014604</xmin>
+        <ymin>43.73080444335940342</ymin>
+        <xmax>13.91865539550780362</xmax>
+        <ymax>47.09215545654300428</ymax>
+      </wgs84extent>
       <id>Fuso__merged__52635300_4cd1_4931_bfc3_579419d45612</id>
       <datasource>./shp/nord-est.gpkg|layername=area_interesse</datasource>
       <keywordList>
@@ -1583,6 +1595,18 @@ control = dialog.findChild(QWidget, "MyLineEdit")
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer simplifyAlgorithm="0" refreshOnNotifyMessage="" symbologyReferenceScale="-1" readOnly="0" labelsEnabled="1" maxScale="0" hasScaleBasedVisibilityFlag="0" autoRefreshMode="Disabled" type="vector" simplifyDrawingTol="1" simplifyDrawingHints="1" styleCategories="AllStyleCategories" refreshOnNotifyEnabled="0" wkbType="MultiPolygon" geometry="Polygon" simplifyLocal="1" autoRefreshTime="0" simplifyMaxScale="1" minScale="5000" legendPlaceholderImage="">
+      <extent>
+        <xmin>6.60741569999999978</xmin>
+        <ymin>43.77655149999999651</ymin>
+        <xmax>11.43305550000000004</xmax>
+        <ymax>46.63481279999999884</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>6.60741569999999978</xmin>
+        <ymin>43.77655149999999651</ymin>
+        <xmax>11.43305550000000892</xmax>
+        <ymax>46.63481279999997753</ymax>
+      </wgs84extent>
       <id>gis_osm_buildings_a_free_1_d6d586ee_10cf_4d57_9872_3a354c100cde</id>
       <datasource>./shp/nord-ovest.gpkg|layername=gis_osm_buildings_a_free</datasource>
       <keywordList>
@@ -2488,6 +2512,18 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer simplifyAlgorithm="0" refreshOnNotifyMessage="" symbologyReferenceScale="-1" readOnly="0" labelsEnabled="1" maxScale="0" hasScaleBasedVisibilityFlag="0" autoRefreshMode="Disabled" type="vector" simplifyDrawingTol="1" simplifyDrawingHints="1" styleCategories="AllStyleCategories" refreshOnNotifyEnabled="0" wkbType="MultiPolygon" geometry="Polygon" simplifyLocal="1" autoRefreshTime="0" simplifyMaxScale="1" minScale="5000" legendPlaceholderImage="">
+      <extent>
+        <xmin>9.20114919999999969</xmin>
+        <ymin>43.73537720000000206</ymin>
+        <xmax>13.92336809999999936</xmax>
+        <ymax>47.09104680000000087</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>9.20114919999999969</xmin>
+        <ymin>43.73537720000000206</ymin>
+        <xmax>13.92336810000002956</xmax>
+        <ymax>47.09104680000002929</ymax>
+      </wgs84extent>
       <id>gis_osm_buildings_a_free_208197e3_311d_4aa1_a6cb_215ca2e02f3b</id>
       <datasource>./shp/nord-est.gpkg|layername=gis_osm_buildings_a_free</datasource>
       <keywordList>
@@ -3393,6 +3429,18 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer simplifyAlgorithm="0" refreshOnNotifyMessage="" symbologyReferenceScale="-1" readOnly="0" labelsEnabled="1" maxScale="0" hasScaleBasedVisibilityFlag="0" autoRefreshMode="Disabled" type="vector" simplifyDrawingTol="1" simplifyDrawingHints="1" styleCategories="AllStyleCategories" refreshOnNotifyEnabled="0" wkbType="MultiPolygon" geometry="Polygon" simplifyLocal="1" autoRefreshTime="0" simplifyMaxScale="1" minScale="500100" legendPlaceholderImage="">
+      <extent>
+        <xmin>6.61465540000000018</xmin>
+        <ymin>43.76726740000000149</ymin>
+        <xmax>11.44926680000000019</xmax>
+        <ymax>46.6597307999999984</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>6.61465540000000018</xmin>
+        <ymin>43.76726740000000149</ymin>
+        <xmax>11.44926680000001795</xmax>
+        <ymax>46.65973080000005524</ymax>
+      </wgs84extent>
       <id>gis_osm_landuse_a_free_1_f9f4b00d_5ed6_4ee1_8949_86a133ed705e</id>
       <datasource>./shp/nord-ovest.gpkg|layername=gis_osm_landuse_a_free</datasource>
       <keywordList>
@@ -4293,6 +4341,18 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer simplifyAlgorithm="0" refreshOnNotifyMessage="" symbologyReferenceScale="-1" readOnly="0" labelsEnabled="1" maxScale="0" hasScaleBasedVisibilityFlag="0" autoRefreshMode="Disabled" type="vector" simplifyDrawingTol="1" simplifyDrawingHints="1" styleCategories="AllStyleCategories" refreshOnNotifyEnabled="0" wkbType="MultiPolygon" geometry="Polygon" simplifyLocal="1" autoRefreshTime="0" simplifyMaxScale="1" minScale="500100" legendPlaceholderImage="">
+      <extent>
+        <xmin>9.16261369999999964</xmin>
+        <ymin>43.67707419999999985</ymin>
+        <xmax>13.93508579999999952</xmax>
+        <ymax>47.07277839999999713</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>9.16261369999999964</xmin>
+        <ymin>43.67707419999999985</ymin>
+        <xmax>13.93508580000002262</xmax>
+        <ymax>47.07277839999994029</ymax>
+      </wgs84extent>
       <id>gis_osm_landuse_a_free_1d36e41a_686b_4b61_b27b_77807a4b24a5</id>
       <datasource>./shp/nord-est.gpkg|layername=gis_osm_landuse_a_free</datasource>
       <keywordList>
@@ -5193,6 +5253,18 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer simplifyAlgorithm="0" refreshOnNotifyMessage="" symbologyReferenceScale="-1" readOnly="0" labelsEnabled="1" maxScale="0" hasScaleBasedVisibilityFlag="0" autoRefreshMode="Disabled" type="vector" simplifyDrawingTol="1" simplifyDrawingHints="0" styleCategories="AllStyleCategories" refreshOnNotifyEnabled="0" wkbType="Point" geometry="Point" simplifyLocal="1" autoRefreshTime="0" simplifyMaxScale="1" minScale="100000000" legendPlaceholderImage="">
+      <extent>
+        <xmin>6.5540756</xmin>
+        <ymin>43.77726930000000038</ymin>
+        <xmax>11.43122759999999971</xmax>
+        <ymax>46.63846869999999711</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>6.5540756</xmin>
+        <ymin>43.77726930000000038</ymin>
+        <xmax>11.43122759999997662</xmax>
+        <ymax>46.63846870000003264</ymax>
+      </wgs84extent>
       <id>gis_osm_natural_free_1_bd12c648_55bc_4cc3_a3ed_1c7acaa6fee8</id>
       <datasource>./shp/nord-ovest.gpkg|layername=gis_osm_natural_free</datasource>
       <keywordList>
@@ -5895,6 +5967,18 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer simplifyAlgorithm="0" refreshOnNotifyMessage="" symbologyReferenceScale="-1" readOnly="0" labelsEnabled="1" maxScale="0" hasScaleBasedVisibilityFlag="0" autoRefreshMode="Disabled" type="vector" simplifyDrawingTol="1" simplifyDrawingHints="0" styleCategories="AllStyleCategories" refreshOnNotifyEnabled="0" wkbType="Point" geometry="Point" simplifyLocal="1" autoRefreshTime="0" simplifyMaxScale="1" minScale="100000000" legendPlaceholderImage="">
+      <extent>
+        <xmin>9.19784630000000014</xmin>
+        <ymin>43.73388899999999779</ymin>
+        <xmax>13.91830709999999982</xmax>
+        <ymax>47.14610110000000276</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>9.19784630000000014</xmin>
+        <ymin>43.73388899999999779</ymin>
+        <xmax>13.9183071000000087</xmax>
+        <ymax>47.14610109999999565</ymax>
+      </wgs84extent>
       <id>gis_osm_natural_free_ecc52030_8bd2_4452_bef4_7428ed8f1055</id>
       <datasource>./shp/nord-est.gpkg|layername=gis_osm_natural_free</datasource>
       <keywordList>
@@ -6533,6 +6617,18 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer simplifyAlgorithm="0" refreshOnNotifyMessage="" symbologyReferenceScale="-1" readOnly="0" labelsEnabled="1" maxScale="0" hasScaleBasedVisibilityFlag="0" autoRefreshMode="Disabled" type="vector" simplifyDrawingTol="1" simplifyDrawingHints="0" styleCategories="AllStyleCategories" refreshOnNotifyEnabled="0" wkbType="Point" geometry="Point" simplifyLocal="1" autoRefreshTime="0" simplifyMaxScale="1" minScale="100000000" legendPlaceholderImage="">
+      <extent>
+        <xmin>9.20369099999999918</xmin>
+        <ymin>43.74842029999999937</ymin>
+        <xmax>13.91187240000000003</xmax>
+        <ymax>47.09227899999999778</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>9.20369099999999918</xmin>
+        <ymin>43.74842029999999937</ymin>
+        <xmax>13.91187240000002667</xmax>
+        <ymax>47.09227899999994094</ymax>
+      </wgs84extent>
       <id>gis_osm_places_free_8e1beae0_9f14_4719_be77_fa0c928c6254</id>
       <datasource>./shp/nord-est.gpkg|layername=gis_osm_places_free</datasource>
       <keywordList>
@@ -9579,6 +9675,18 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer simplifyAlgorithm="0" refreshOnNotifyMessage="" symbologyReferenceScale="-1" readOnly="0" labelsEnabled="1" maxScale="0" hasScaleBasedVisibilityFlag="0" autoRefreshMode="Disabled" type="vector" simplifyDrawingTol="1" simplifyDrawingHints="0" styleCategories="AllStyleCategories" refreshOnNotifyEnabled="0" wkbType="Point" geometry="Point" simplifyLocal="1" autoRefreshTime="0" simplifyMaxScale="1" minScale="100000000" legendPlaceholderImage="">
+      <extent>
+        <xmin>6.63619510000000012</xmin>
+        <ymin>43.77688919999999939</ymin>
+        <xmax>11.42198300000000089</xmax>
+        <ymax>46.62644889999999975</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>6.63619510000000012</xmin>
+        <ymin>43.77688919999999939</ymin>
+        <xmax>11.42198300000000266</xmax>
+        <ymax>46.62644889999998554</ymax>
+      </wgs84extent>
       <id>gis_osm_places_free_b165bc7d_b844_4349_bf3f_68557cc718c3</id>
       <datasource>./shp/nord-ovest.gpkg|layername=gis_osm_places_free</datasource>
       <keywordList>
@@ -12625,6 +12733,18 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer simplifyAlgorithm="0" refreshOnNotifyMessage="" symbologyReferenceScale="-1" readOnly="0" labelsEnabled="0" maxScale="0" hasScaleBasedVisibilityFlag="0" autoRefreshMode="Disabled" type="vector" simplifyDrawingTol="1" simplifyDrawingHints="0" styleCategories="AllStyleCategories" refreshOnNotifyEnabled="0" wkbType="Point" geometry="Point" simplifyLocal="1" autoRefreshTime="0" simplifyMaxScale="1" minScale="100000000" legendPlaceholderImage="">
+      <extent>
+        <xmin>6.61005839999999978</xmin>
+        <ymin>43.77660999999999802</ymin>
+        <xmax>11.42334130000000059</xmax>
+        <ymax>46.63693270000000268</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>6.61005839999999978</xmin>
+        <ymin>43.77660999999999802</ymin>
+        <xmax>11.42334130000000414</xmax>
+        <ymax>46.63693269999992452</ymax>
+      </wgs84extent>
       <id>gis_osm_pois_free_1_61404e46_ee04_43cb_9458_6c06e529c15a</id>
       <datasource>./shp/nord-ovest.gpkg|layername=gis_osm_pois_free</datasource>
       <keywordList>
@@ -14107,6 +14227,18 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer simplifyAlgorithm="0" refreshOnNotifyMessage="" symbologyReferenceScale="-1" readOnly="0" labelsEnabled="0" maxScale="0" hasScaleBasedVisibilityFlag="0" autoRefreshMode="Disabled" type="vector" simplifyDrawingTol="1" simplifyDrawingHints="0" styleCategories="AllStyleCategories" refreshOnNotifyEnabled="0" wkbType="Point" geometry="Point" simplifyLocal="1" autoRefreshTime="0" simplifyMaxScale="1" minScale="100000000" legendPlaceholderImage="">
+      <extent>
+        <xmin>9.19774549999999991</xmin>
+        <ymin>43.75350579999999923</ymin>
+        <xmax>13.92419590000000085</xmax>
+        <ymax>47.09455580000000197</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>9.19774549999999991</xmin>
+        <ymin>43.75350579999999923</ymin>
+        <xmax>13.92419589999998308</xmax>
+        <ymax>47.0945558000000517</ymax>
+      </wgs84extent>
       <id>gis_osm_pois_free_67dd97a1_7ab5_449c_b2c8_f7df4043bdc8</id>
       <datasource>./shp/nord-est.gpkg|layername=gis_osm_pois_free</datasource>
       <keywordList>
@@ -15572,6 +15704,18 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer simplifyAlgorithm="0" refreshOnNotifyMessage="" symbologyReferenceScale="-1" readOnly="0" labelsEnabled="0" maxScale="0" hasScaleBasedVisibilityFlag="0" autoRefreshMode="Disabled" type="vector" simplifyDrawingTol="1" simplifyDrawingHints="1" styleCategories="AllStyleCategories" refreshOnNotifyEnabled="0" wkbType="MultiPolygon" geometry="Polygon" simplifyLocal="1" autoRefreshTime="0" simplifyMaxScale="1" minScale="100000000" legendPlaceholderImage="">
+      <extent>
+        <xmin>9.52754099999999937</xmin>
+        <ymin>43.73159230000000264</ymin>
+        <xmax>13.91865600000000036</xmax>
+        <ymax>47.09214850000000041</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>9.52754099999999937</xmin>
+        <ymin>43.73159230000000264</ymin>
+        <xmax>13.91865599999999148</xmax>
+        <ymax>47.09214849999992936</ymax>
+      </wgs84extent>
       <id>gis_osm_protected_areas_a_free_5fb36abd_934e_4cf4_a1a3_1171eb183006</id>
       <datasource>./shp/nord-est.gpkg|layername=gis_osm_protected_areas_a_free</datasource>
       <keywordList>
@@ -16003,6 +16147,18 @@ control = dialog.findChild(QWidget, "MyLineEdit")
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer simplifyAlgorithm="0" refreshOnNotifyMessage="" symbologyReferenceScale="-1" readOnly="0" labelsEnabled="0" maxScale="0" hasScaleBasedVisibilityFlag="0" autoRefreshMode="Disabled" type="vector" simplifyDrawingTol="1" simplifyDrawingHints="1" styleCategories="AllStyleCategories" refreshOnNotifyEnabled="0" wkbType="MultiPolygon" geometry="Polygon" simplifyLocal="1" autoRefreshTime="0" simplifyMaxScale="1" minScale="100000000" legendPlaceholderImage="">
+      <extent>
+        <xmin>6.63030260000000027</xmin>
+        <ymin>43.78423500000000246</ymin>
+        <xmax>11.31317849999999936</xmax>
+        <ymax>46.47327370000000002</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>6.63030260000000027</xmin>
+        <ymin>43.78423500000000246</ymin>
+        <xmax>11.31317849999999048</xmax>
+        <ymax>46.47327370000007818</ymax>
+      </wgs84extent>
       <id>gis_osm_protected_areas_a_free_e6d480af_c37d_4420_8476_bc9301baacfc</id>
       <datasource>./shp/nord-ovest.gpkg|layername=gis_osm_protected_areas_a_free</datasource>
       <keywordList>
@@ -16451,6 +16607,18 @@ control = dialog.findChild(QWidget, "MyLineEdit")
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer simplifyAlgorithm="0" refreshOnNotifyMessage="" symbologyReferenceScale="-1" readOnly="0" labelsEnabled="1" maxScale="1" hasScaleBasedVisibilityFlag="1" autoRefreshMode="Disabled" type="vector" simplifyDrawingTol="1" simplifyDrawingHints="1" styleCategories="AllStyleCategories" refreshOnNotifyEnabled="0" wkbType="LineString" geometry="Line" simplifyLocal="1" autoRefreshTime="0" simplifyMaxScale="1" minScale="12000000" legendPlaceholderImage="">
+      <extent>
+        <xmin>9.39406280000000038</xmin>
+        <ymin>43.95109829999999818</ymin>
+        <xmax>13.94418929999999968</xmax>
+        <ymax>47.04525689999999827</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>9.39406280000000038</xmin>
+        <ymin>43.95109829999999818</ymin>
+        <xmax>13.94418930000000856</xmax>
+        <ymax>47.04525689999999827</ymax>
+      </wgs84extent>
       <id>gis_osm_railways_free_1956ac95_4a17_41c0_8c6f_927a99ea0a33</id>
       <datasource>./shp/nord-est.gpkg|layername=gis_osm_railways_free</datasource>
       <keywordList>
@@ -17306,6 +17474,18 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer simplifyAlgorithm="0" refreshOnNotifyMessage="" symbologyReferenceScale="-1" readOnly="0" labelsEnabled="1" maxScale="1" hasScaleBasedVisibilityFlag="1" autoRefreshMode="Disabled" type="vector" simplifyDrawingTol="1" simplifyDrawingHints="1" styleCategories="AllStyleCategories" refreshOnNotifyEnabled="0" wkbType="LineString" geometry="Line" simplifyLocal="1" autoRefreshTime="0" simplifyMaxScale="1" minScale="12000000" legendPlaceholderImage="">
+      <extent>
+        <xmin>6.66028280000000006</xmin>
+        <ymin>43.7774386999999976</ymin>
+        <xmax>11.36917270000000002</xmax>
+        <ymax>46.42172850000000039</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>6.66028280000000006</xmin>
+        <ymin>43.7774386999999976</ymin>
+        <xmax>11.36917270000001601</xmax>
+        <ymax>46.42172849999997197</ymax>
+      </wgs84extent>
       <id>gis_osm_railways_free_1_01a798ce_5014_4704_98c2_20d5dd517e05</id>
       <datasource>./shp/nord-ovest.gpkg|layername=gis_osm_railways_free</datasource>
       <keywordList>
@@ -18178,6 +18358,18 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer simplifyAlgorithm="0" refreshOnNotifyMessage="" symbologyReferenceScale="-1" readOnly="0" labelsEnabled="1" maxScale="1" hasScaleBasedVisibilityFlag="1" autoRefreshMode="Disabled" type="vector" simplifyDrawingTol="1" simplifyDrawingHints="1" styleCategories="AllStyleCategories" refreshOnNotifyEnabled="0" wkbType="LineString" geometry="Line" simplifyLocal="1" autoRefreshTime="0" simplifyMaxScale="1" minScale="12000000" legendPlaceholderImage="">
+      <extent>
+        <xmin>6.6007144000000002</xmin>
+        <ymin>43.77674809999999894</ymin>
+        <xmax>11.43418420000000069</xmax>
+        <ymax>46.65337879999999871</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>6.6007144000000002</xmin>
+        <ymin>43.77674809999999894</ymin>
+        <xmax>11.43418420000000246</xmax>
+        <ymax>46.65337880000002002</ymax>
+      </wgs84extent>
       <id>gis_osm_roads_free_1_6c10eecb_459d_49d1_b22d_756d4f2448e6</id>
       <datasource>./shp/nord-ovest.gpkg|layername=gis_osm_roads_free</datasource>
       <keywordList>
@@ -21044,6 +21236,18 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer simplifyAlgorithm="0" refreshOnNotifyMessage="" symbologyReferenceScale="-1" readOnly="0" labelsEnabled="1" maxScale="1" hasScaleBasedVisibilityFlag="1" autoRefreshMode="Disabled" type="vector" simplifyDrawingTol="1" simplifyDrawingHints="1" styleCategories="AllStyleCategories" refreshOnNotifyEnabled="0" wkbType="LineString" geometry="Line" simplifyLocal="1" autoRefreshTime="0" simplifyMaxScale="1" minScale="12000000" legendPlaceholderImage="">
+      <extent>
+        <xmin>9.16509160000000023</xmin>
+        <ymin>43.723589699999998</ymin>
+        <xmax>13.9292107000000005</xmax>
+        <ymax>47.251814600000003</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>9.16509160000000023</xmin>
+        <ymin>43.723589699999998</ymin>
+        <xmax>13.92921070000000938</xmax>
+        <ymax>47.25181460000008826</ymax>
+      </wgs84extent>
       <id>gis_osm_roads_free_9305ec14_0205_47ed_9e6f_4fcb92d0d48c</id>
       <datasource>./shp/nord-est.gpkg|layername=gis_osm_roads_free</datasource>
       <keywordList>
@@ -23910,6 +24114,18 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer simplifyAlgorithm="0" refreshOnNotifyMessage="" symbologyReferenceScale="-1" readOnly="0" labelsEnabled="0" maxScale="0" hasScaleBasedVisibilityFlag="0" autoRefreshMode="Disabled" type="vector" simplifyDrawingTol="1" simplifyDrawingHints="1" styleCategories="AllStyleCategories" refreshOnNotifyEnabled="0" wkbType="MultiPolygon" geometry="Polygon" simplifyLocal="1" autoRefreshTime="0" simplifyMaxScale="1" minScale="100000000" legendPlaceholderImage="">
+      <extent>
+        <xmin>6.71328800000000037</xmin>
+        <ymin>43.78617409999999666</ymin>
+        <xmax>10.81510680000000058</xmax>
+        <ymax>46.51774770000000103</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>6.71328800000000037</xmin>
+        <ymin>43.78617409999999666</ymin>
+        <xmax>10.81510679999998992</xmax>
+        <ymax>46.51774770000002235</ymax>
+      </wgs84extent>
       <id>gis_osm_transport_a_free_1_a90555e0_937c_4976_834a_9903eba03d0b</id>
       <datasource>./shp/nord-ovest.gpkg|layername=gis_osm_transport_a_free</datasource>
       <keywordList>
@@ -24433,6 +24649,18 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer simplifyAlgorithm="0" refreshOnNotifyMessage="" symbologyReferenceScale="-1" readOnly="0" labelsEnabled="0" maxScale="0" hasScaleBasedVisibilityFlag="0" autoRefreshMode="Disabled" type="vector" simplifyDrawingTol="1" simplifyDrawingHints="1" styleCategories="AllStyleCategories" refreshOnNotifyEnabled="0" wkbType="MultiPolygon" geometry="Polygon" simplifyLocal="1" autoRefreshTime="0" simplifyMaxScale="1" minScale="100000000" legendPlaceholderImage="">
+      <extent>
+        <xmin>6.71328800000000037</xmin>
+        <ymin>43.78617409999999666</ymin>
+        <xmax>10.81510680000000058</xmax>
+        <ymax>46.51774770000000103</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>6.71328800000000037</xmin>
+        <ymin>43.78617409999999666</ymin>
+        <xmax>10.81510679999998992</xmax>
+        <ymax>46.51774770000002235</ymax>
+      </wgs84extent>
       <id>gis_osm_transport_a_free_542c9b4d_04f1_4e41_9054_2bcdfb01b13b</id>
       <datasource>./shp/nord-ovest.gpkg|layername=gis_osm_transport_a_free</datasource>
       <keywordList>
@@ -24939,6 +25167,18 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer simplifyAlgorithm="0" refreshOnNotifyMessage="" symbologyReferenceScale="-1" readOnly="0" labelsEnabled="1" maxScale="0" hasScaleBasedVisibilityFlag="0" autoRefreshMode="Disabled" type="vector" simplifyDrawingTol="1" simplifyDrawingHints="0" styleCategories="AllStyleCategories" refreshOnNotifyEnabled="0" wkbType="Point" geometry="Point" simplifyLocal="1" autoRefreshTime="0" simplifyMaxScale="1" minScale="100000000" legendPlaceholderImage="">
+      <extent>
+        <xmin>-5.51898909999999976</xmin>
+        <ymin>35.87691219999999959</ymin>
+        <xmax>13.36375849999999943</xmax>
+        <ymax>46.62408289999999766</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>-5.51898909999999976</xmin>
+        <ymin>35.87691219999999959</ymin>
+        <xmax>13.36375849999999943</xmax>
+        <ymax>46.62408290000002609</ymax>
+      </wgs84extent>
       <id>gis_osm_transport_free_1_11e948b2_8b5d_4da5_b8a4_82ebdda842dc</id>
       <datasource>./shp/nord-ovest.gpkg|layername=gis_osm_transport_free</datasource>
       <keywordList>
@@ -26236,6 +26476,18 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer simplifyAlgorithm="0" refreshOnNotifyMessage="" symbologyReferenceScale="-1" readOnly="0" labelsEnabled="1" maxScale="0" hasScaleBasedVisibilityFlag="0" autoRefreshMode="Disabled" type="vector" simplifyDrawingTol="1" simplifyDrawingHints="0" styleCategories="AllStyleCategories" refreshOnNotifyEnabled="0" wkbType="Point" geometry="Point" simplifyLocal="1" autoRefreshTime="0" simplifyMaxScale="1" minScale="100000000" legendPlaceholderImage="">
+      <extent>
+        <xmin>9.29072820000000021</xmin>
+        <ymin>38.22627109999999817</ymin>
+        <xmax>21.71892430000000118</xmax>
+        <ymax>47.050073900000001</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>9.29072820000000021</xmin>
+        <ymin>38.22627109999999817</ymin>
+        <xmax>21.71892429999999763</xmax>
+        <ymax>47.05007389999992284</ymax>
+      </wgs84extent>
       <id>gis_osm_transport_free_81f92661_4adc_415d_8cfb_2de9ecca64b8</id>
       <datasource>./shp/nord-est.gpkg|layername=gis_osm_transport_free</datasource>
       <keywordList>
@@ -27516,6 +27768,18 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer simplifyAlgorithm="0" refreshOnNotifyMessage="" symbologyReferenceScale="-1" readOnly="0" labelsEnabled="1" maxScale="0" hasScaleBasedVisibilityFlag="0" autoRefreshMode="Disabled" type="vector" simplifyDrawingTol="1" simplifyDrawingHints="1" styleCategories="AllStyleCategories" refreshOnNotifyEnabled="0" wkbType="MultiPolygon" geometry="Polygon" simplifyLocal="1" autoRefreshTime="0" simplifyMaxScale="1" minScale="100000000" legendPlaceholderImage="">
+      <extent>
+        <xmin>9.19950230000000069</xmin>
+        <ymin>43.75153519999999929</ymin>
+        <xmax>13.92414420000000064</xmax>
+        <ymax>47.09682380000000279</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>9.19950230000000069</xmin>
+        <ymin>43.75153519999999929</ymin>
+        <xmax>13.9241442000000113</xmax>
+        <ymax>47.09682380000003121</ymax>
+      </wgs84extent>
       <id>gis_osm_water_a_free_18914936_17aa_4bed_8fc3_c240e112afce</id>
       <datasource>./shp/nord-est.gpkg|layername=gis_osm_water_a_free</datasource>
       <keywordList>
@@ -28594,6 +28858,18 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer simplifyAlgorithm="0" refreshOnNotifyMessage="" symbologyReferenceScale="-1" readOnly="0" labelsEnabled="1" maxScale="0" hasScaleBasedVisibilityFlag="0" autoRefreshMode="Disabled" type="vector" simplifyDrawingTol="1" simplifyDrawingHints="1" styleCategories="AllStyleCategories" refreshOnNotifyEnabled="0" wkbType="MultiPolygon" geometry="Polygon" simplifyLocal="1" autoRefreshTime="0" simplifyMaxScale="1" minScale="100000000" legendPlaceholderImage="">
+      <extent>
+        <xmin>6.6072236000000002</xmin>
+        <ymin>43.7799049999999994</ymin>
+        <xmax>11.57508480000000084</xmax>
+        <ymax>46.63620099999999979</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>6.6072236000000002</xmin>
+        <ymin>43.7799049999999994</ymin>
+        <xmax>11.57508480000001327</xmax>
+        <ymax>46.63620099999992874</ymax>
+      </wgs84extent>
       <id>gis_osm_water_a_free_1_b2bd2bcd_4247_4d2b_8c40_f3b7fd300d5d</id>
       <datasource>./shp/nord-ovest.gpkg|layername=gis_osm_water_a_free</datasource>
       <keywordList>
@@ -29672,6 +29948,18 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer simplifyAlgorithm="0" refreshOnNotifyMessage="" symbologyReferenceScale="-1" readOnly="0" labelsEnabled="1" maxScale="1" hasScaleBasedVisibilityFlag="1" autoRefreshMode="Disabled" type="vector" simplifyDrawingTol="1" simplifyDrawingHints="1" styleCategories="AllStyleCategories" refreshOnNotifyEnabled="0" wkbType="LineString" geometry="Line" simplifyLocal="1" autoRefreshTime="0" simplifyMaxScale="1" minScale="12000000" legendPlaceholderImage="">
+      <extent>
+        <xmin>6.58276910000000015</xmin>
+        <ymin>43.77747800000000211</ymin>
+        <xmax>12.04920079999999949</xmax>
+        <ymax>46.6785546999999994</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>6.58276910000000015</xmin>
+        <ymin>43.77747800000000211</ymin>
+        <xmax>12.04920079999998173</xmax>
+        <ymax>46.67855469999993545</ymax>
+      </wgs84extent>
       <id>gis_osm_waterways_free_1_c6692516_0d9c_4dec_8750_39e0433723ad</id>
       <datasource>./shp/nord-ovest.gpkg|layername=gis_osm_waterways_free</datasource>
       <keywordList>
@@ -30723,6 +31011,18 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer simplifyAlgorithm="0" refreshOnNotifyMessage="" symbologyReferenceScale="-1" readOnly="0" labelsEnabled="1" maxScale="1" hasScaleBasedVisibilityFlag="1" autoRefreshMode="Disabled" type="vector" simplifyDrawingTol="1" simplifyDrawingHints="1" styleCategories="AllStyleCategories" refreshOnNotifyEnabled="0" wkbType="LineString" geometry="Line" simplifyLocal="1" autoRefreshTime="0" simplifyMaxScale="1" minScale="12000000" legendPlaceholderImage="">
+      <extent>
+        <xmin>9.01116009999999967</xmin>
+        <ymin>43.68329049999999825</ymin>
+        <xmax>13.92836119999999944</xmax>
+        <ymax>47.12038729999999731</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>9.01116009999999967</xmin>
+        <ymin>43.68329049999999825</ymin>
+        <xmax>13.92836120000001721</xmax>
+        <ymax>47.12038729999996178</ymax>
+      </wgs84extent>
       <id>gis_osm_waterways_free_695020a7_23f0_4dc6_bdf2_feaace144d1b</id>
       <datasource>./shp/nord-est.gpkg|layername=gis_osm_waterways_free</datasource>
       <keywordList>
@@ -31983,6 +32283,18 @@ def my_form_open(dialog, layer, feature):
       <blendMode>6</blendMode>
     </maplayer>
     <maplayer simplifyAlgorithm="0" refreshOnNotifyMessage="" symbologyReferenceScale="-1" readOnly="0" labelsEnabled="0" maxScale="0" hasScaleBasedVisibilityFlag="0" autoRefreshMode="Disabled" type="vector" simplifyDrawingTol="1" simplifyDrawingHints="1" styleCategories="AllStyleCategories" refreshOnNotifyEnabled="0" wkbType="MultiPolygon" geometry="Polygon" simplifyLocal="1" autoRefreshTime="0" simplifyMaxScale="1" minScale="100000000" legendPlaceholderImage="">
+      <extent>
+        <xmin>9.19791170000000058</xmin>
+        <ymin>43.7308080999999973</ymin>
+        <xmax>13.91865529999999929</xmax>
+        <ymax>47.09214850000000041</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>9.19791170000000058</xmin>
+        <ymin>43.7308080999999973</ymin>
+        <xmax>13.91865530000002416</xmax>
+        <ymax>47.09214849999995778</ymax>
+      </wgs84extent>
       <id>nord_est_fa3d0abb_1287_4bfb_bf82_319318c1cfb2</id>
       <datasource>./shp/nord-est.gpkg|layername=area_nord_est</datasource>
       <keywordList>
@@ -32350,6 +32662,18 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer simplifyAlgorithm="0" refreshOnNotifyMessage="" symbologyReferenceScale="-1" readOnly="0" labelsEnabled="0" maxScale="0" hasScaleBasedVisibilityFlag="0" autoRefreshMode="Disabled" type="vector" simplifyDrawingTol="1" simplifyDrawingHints="1" styleCategories="AllStyleCategories" refreshOnNotifyEnabled="0" wkbType="MultiPolygon" geometry="Polygon" simplifyLocal="1" autoRefreshTime="0" simplifyMaxScale="1" minScale="100000000" legendPlaceholderImage="">
+      <extent>
+        <xmin>6.62726579999999998</xmin>
+        <ymin>43.77569059999999723</ymin>
+        <xmax>11.42764769999999963</xmax>
+        <ymax>46.63535230000000098</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>6.62726579999999998</xmin>
+        <ymin>43.77569059999999723</ymin>
+        <xmax>11.42764770000000851</xmax>
+        <ymax>46.63535230000005782</ymax>
+      </wgs84extent>
       <id>nord_ovest_8f19fe81_b157_448b_8276_de923d073b71</id>
       <datasource>./shp/nord-ovest.gpkg|layername=area_nord_ovest</datasource>
       <keywordList>
@@ -43013,6 +43337,18 @@ control = dialog.findChild(QWidget, "MyLineEdit")
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer simplifyAlgorithm="0" refreshOnNotifyMessage="" symbologyReferenceScale="-1" readOnly="0" labelsEnabled="1" maxScale="0" hasScaleBasedVisibilityFlag="0" autoRefreshMode="Disabled" type="vector" simplifyDrawingTol="1" simplifyDrawingHints="1" styleCategories="AllStyleCategories" refreshOnNotifyEnabled="0" wkbType="MultiPolygon" geometry="Polygon" simplifyLocal="1" autoRefreshTime="0" simplifyMaxScale="1" minScale="100000000" legendPlaceholderImage="">
+      <extent>
+        <xmin>6.63075780868530007</xmin>
+        <ymin>43.7915229797362997</ymin>
+        <xmax>13.81979370117189987</xmax>
+        <ymax>46.99479293823240056</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>6.63075780868530007</xmin>
+        <ymin>43.7915229797362997</ymin>
+        <xmax>13.81979370117189987</xmax>
+        <ymax>46.99479293823240056</ymax>
+      </wgs84extent>
       <id>planet_pistesosmium__multipolygons_19f86d4e_69de_4f85_bda6_206ea66e57b3</id>
       <datasource>./shp/planet_pistes-osmium_no-ne.gpkg|layername=planet_pistesosmium__multipolygons</datasource>
       <keywordList>
@@ -48091,6 +48427,12 @@ control = dialog.findChild(QWidget, "MyLineEdit")
     <WMSContactPhone type="QString"></WMSContactPhone>
     <WMSContactPosition type="QString"></WMSContactPosition>
     <WMSDefaultMapUnitsPerMm type="double">8.092930800666825e-11</WMSDefaultMapUnitsPerMm>
+    <WMSExtent type="QStringList">
+      <value>294768.15950000000884756</value>
+      <value>4828390.73909999988973141</value>
+      <value>908544.32579999999143183</value>
+      <value>5242269.41229999996721745</value>
+    </WMSExtent>
     <WMSFeatureInfoUseAttributeFormSettings type="bool">false</WMSFeatureInfoUseAttributeFormSettings>
     <WMSFees type="QString">conditions unknown</WMSFees>
     <WMSImageQuality type="int">90</WMSImageQuality>
@@ -55693,7 +56035,7 @@ control = dialog.findChild(QWidget, "MyLineEdit")
   <Sensors/>
   <ProjectViewSettings rotation="0" UseProjectScales="0">
     <Scales/>
-    <DefaultViewExtent xmin="236563.3365656539099291" ymin="4945491.93364369310438633" xmax="440939.96978783316444606" ymax="5033687.03147384151816368">
+    <DefaultViewExtent xmin="143251.94936614378821105" ymin="4837513.8632708415389061" xmax="1060060.53590032970532775" ymax="5233146.28810387663543224">
       <spatialrefsys nativeFormat="Wkt">
         <wkt>PROJCRS["ETRS89 / UTM zone 32N",BASEGEOGCRS["ETRS89",ENSEMBLE["European Terrestrial Reference System 1989 ensemble",MEMBER["European Terrestrial Reference Frame 1989"],MEMBER["European Terrestrial Reference Frame 1990"],MEMBER["European Terrestrial Reference Frame 1991"],MEMBER["European Terrestrial Reference Frame 1992"],MEMBER["European Terrestrial Reference Frame 1993"],MEMBER["European Terrestrial Reference Frame 1994"],MEMBER["European Terrestrial Reference Frame 1996"],MEMBER["European Terrestrial Reference Frame 1997"],MEMBER["European Terrestrial Reference Frame 2000"],MEMBER["European Terrestrial Reference Frame 2005"],MEMBER["European Terrestrial Reference Frame 2014"],ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[0.1]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4258]],CONVERSION["UTM zone 32N",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",9,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Engineering survey, topographic mapping."],AREA["Europe between 6°E and 12°E: Austria; Belgium; Denmark - onshore and offshore; Germany - onshore and offshore; Norway including - onshore and offshore; Spain - offshore."],BBOX[38.76,6,84.33,12]],ID["EPSG",25832]]</wkt>
         <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
